@@ -1,6 +1,6 @@
 <?
     function register_entities() {
-    register_nav_menu( 'top-nav', 'Nav Bar');
+    register_nav_menu( 'top-nav', 'Top Navigation Bar');
     }
     add_action('init', 'register_entities');
 

@@ -20,6 +20,13 @@ body {
 .content img{
 }
 
+.product {
+  float: right;
+}
+
+.desc {
+  float: left;
+}
 .portfolio-slideshow0 {
   position: relative;
   margin: 50px auto;
@@ -64,8 +71,8 @@ p {
   width: 100%;
   font-size: large;
   color: $blue;
-  margin: 0 auto;
   padding: 10px;
+  margin-top: 40px;
 }
 
 .menu {
@@ -152,6 +159,10 @@ li, a {
     display: inline-block;
     padding-right: 15px;
   }
+}
+
+.statement {
+  margin-top: 40px;
 }
 
 a:hover {

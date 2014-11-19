@@ -364,6 +364,12 @@ body {
   height: 100%;
   background-color: #F9F6FF; }
 
+.product {
+  float: right; }
+
+.desc {
+  float: left; }
+
 .portfolio-slideshow0 {
   position: relative;
   margin: 50px auto; }
@@ -401,8 +407,8 @@ p {
   width: 100%;
   font-size: large;
   color: #005B7C;
-  margin: 0 auto;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 40px; }
 
 .menu {
   font-size: xx-large;
@@ -479,6 +485,9 @@ li, a {
       font-size: x-large;
       display: inline-block;
       padding-right: 15px; } }
+
+.statement {
+  margin-top: 40px; }
 
 a:hover {
   color: #005B7C; }
