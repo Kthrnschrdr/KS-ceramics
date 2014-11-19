@@ -362,10 +362,17 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  background-color: #E07F39; }
+  background-color: #F9F6FF; }
+
+.portfolio-slideshow0 {
+  position: relative;
+  margin: 0 auto; }
+
+#psp-active {
+  margin: 0 auto; }
 
 dd {
-  color: #E07F39;
+  color: #005B7C;
   font-family: "Open Sans Condensed", sans-serif;
   text-align: center; }
 
@@ -378,7 +385,7 @@ dd {
 .portfolio {
   font-size: xx-large;
   font-family: "Josefin Sans", sans-serif;
-  color: #E07F39;
+  color: #005B7C;
   margin: 0 auto;
   text-align: center; }
 
@@ -393,7 +400,7 @@ h2 {
 p {
   width: 100%;
   font-size: large;
-  color: #F9F6FF;
+  color: #005B7C;
   margin: 0 auto;
   padding: 10px; }
 
@@ -408,11 +415,11 @@ p {
 
 .header {
   position: absolute;
-  background-color: #E07F39;
+  background-color: #F9F6FF;
   width: 100%;
   opacity: .7;
   height: 70px;
-  color: #F9F6FF; }
+  color: #005B7C; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     .header {
       height: 120px; } }
@@ -425,7 +432,7 @@ p {
 
 select {
   font-family: "Josefin Sans", sans-serif;
-  color: #F9F6FF;
+  color: #E07F39;
   font-size: x-large; }
 
 .name {
@@ -448,7 +455,7 @@ nav {
   float: right;
   text-transform: lowercase;
   font-family: "Josefin Sans", sans-serif;
-  font-size: x-large;
+  font-size: large;
   margin-right: 20px; }
 
 .clearfix {
@@ -456,7 +463,7 @@ nav {
 
 li, a {
   text-decoration: none;
-  color: #0CACB5; }
+  color: #005B7C; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     li, a {
       text-align: center; } }
@@ -472,7 +479,7 @@ li, a {
       padding-right: 15px; } }
 
 a:hover {
-  color: #0CACB5; }
+  color: #005B7C; }
 
 .footer {
   background-color: #E07F39;

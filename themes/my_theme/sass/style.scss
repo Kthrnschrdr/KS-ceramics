@@ -5,7 +5,7 @@ $font: 'Open Sans Condensed', sans-serif;
 $whitish: #F9F6FF;
 $celadon: #E4F7F1;
 $terracotta: #E07F39;
-$blue: #0CACB5;
+$blue: #005B7C;
 
 body {
   margin: 0 auto;
@@ -14,7 +14,7 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  background-color: $terracotta;
+  background-color: $whitish;
 }
 
 .content img{
@@ -23,8 +23,17 @@ body {
 .gallery-item {
 }
 
+.portfolio-slideshow0 {
+  position: relative;
+  margin: 0 auto;
+}
+
+#psp-active {
+  margin: 0 auto;
+}
+
 dd {
-  color: $terracotta;
+  color: $blue;
   font-family: $font;
   text-align: center;
 }
@@ -39,7 +48,7 @@ dd {
 .portfolio {
   font-size: xx-large;
   font-family: $fancy_font;
-  color: $terracotta;
+  color: $blue;
   margin: 0 auto;
   text-align: center;
 }
@@ -57,7 +66,7 @@ h2 {
 p {
   width: 100%;
   font-size: large;
-  color: $whitish;
+  color: $blue;
   margin: 0 auto;
   padding: 10px;
 }
@@ -75,11 +84,11 @@ p {
 
 .header {
   position: absolute;
-  background-color: $terracotta;
+  background-color: $whitish;
   width: 100%;
   opacity: .7;
   height: 70px;
-  color: $whitish;
+  color: $blue;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
   height: 120px;
   }
@@ -94,7 +103,7 @@ p {
 
 select {
   font-family: $fancy_font;
-  color: $whitish;
+  color: $terracotta;
   font-size: x-large;
 }
 
@@ -119,7 +128,7 @@ nav {
   float: right;
   text-transform: lowercase;
   font-family: $fancy_font;
-  font-size: x-large;
+  font-size: large;
   margin-right: 20px;
 }
 
