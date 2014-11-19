@@ -20,12 +20,9 @@ body {
 .content img{
 }
 
-.gallery-item {
-}
-
 .portfolio-slideshow0 {
   position: relative;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 #psp-active {
@@ -84,6 +81,7 @@ p {
 
 .header {
   position: absolute;
+  margin-top: 20px;
   background-color: $whitish;
   width: 100%;
   opacity: .7;
@@ -110,8 +108,9 @@ select {
 .name {
   float: left;
   font-family: $fancy_font;
-  font-size: 45px;
+  font-size: xx-large;
   margin-left: 20px;
+  margin-top: 20px;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     font-size: xx-large;
     margin-top:10px;

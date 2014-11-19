@@ -366,7 +366,7 @@ body {
 
 .portfolio-slideshow0 {
   position: relative;
-  margin: 0 auto; }
+  margin: 50px auto; }
 
 #psp-active {
   margin: 0 auto; }
@@ -415,6 +415,7 @@ p {
 
 .header {
   position: absolute;
+  margin-top: 20px;
   background-color: #F9F6FF;
   width: 100%;
   opacity: .7;
@@ -438,8 +439,9 @@ select {
 .name {
   float: left;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 45px;
-  margin-left: 20px; }
+  font-size: xx-large;
+  margin-left: 20px;
+  margin-top: 20px; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     .name {
       font-size: xx-large;
