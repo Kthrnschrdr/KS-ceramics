@@ -395,6 +395,10 @@ dd {
   margin: 0 auto;
   text-align: center; }
 
+.products li {
+  float: left;
+  margin: 10px; }
+
 dd {
   padding-bottom: 20px; }
 
