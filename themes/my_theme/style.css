@@ -388,6 +388,14 @@ dd {
   text-align: center;
   width: 80%; }
 
+.work {
+  float: left;
+  margin: 20px; }
+
+.work1 {
+  float: left; 
+  margin: 20px}
+
 .portfolio {
   font-size: xx-large;
   font-family: "Josefin Sans", sans-serif;
@@ -504,5 +512,9 @@ footer img {
   border-radius: 100%;
   width: 80px;
   text-align: center; }
+
+li a {
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

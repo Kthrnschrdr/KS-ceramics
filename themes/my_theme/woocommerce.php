@@ -1,4 +1,5 @@
-<?php get_header();?>
+<?php get_header();
+?>
 <div class="content">
   <?php woocommerce_content(); ?>
 </div>

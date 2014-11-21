@@ -1,11 +1,11 @@
 @import "normalize";
 
 $fancy_font: 'Josefin Sans', sans-serif;
-$font: 'Cabin Sketch', cursive;
-$whitish: #FEFCFF;
+$font: 'Open Sans Condensed', sans-serif;
+$whitish: #F9F6FF;
 $celadon: #E4F7F1;
 $terracotta: #E07F39;
-$blue: #002D66;
+$blue: #005B7C;
 
 body {
   margin: 0 auto;
@@ -49,7 +49,6 @@ dd {
   margin: 0 auto;
   text-align: center;
   width: 80%;
-  font-family: $font;
 }
 
 .portfolio {
@@ -76,7 +75,6 @@ h2 {
 }
 
 .content p {
-  font-family: $font;
   width: 60%;
   font-size: large;
   color: $blue;
