@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
   <div class="header clearfix">
-    <div class="name">Kathryn Schroeder Ceramics</div>
+    <a href="http://localhost:8888/ks-ceramics/"><div class="name">Kathryn Schroeder Ceramics</div></a>
     <nav><?php if( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
         wp_nav_menu( array( 'theme_location' => 'top-nav', 'menu_class' => 'top-nav') ); 
       } ?></nav>

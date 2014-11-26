@@ -365,10 +365,12 @@ body {
   background-color: #F6FDF4; }
 
 .work {
-  float: left; }
+  float: left;
+  margin: 10px; }
 
 .work1 {
-  float: left; }
+  float: left;
+  margin: 10px; }
 
 .product {
   float: right; }
@@ -388,7 +390,7 @@ img {
   margin: 0 auto; }
 
 dd {
-  color: #2A8FA0;
+  color: #DF6E17;
   font-family: "Playfair Display", serif;
   text-align: center; }
 
@@ -398,6 +400,19 @@ dd {
   text-align: center;
   width: 80%;
   font-family: "Playfair Display", serif; }
+
+.content a {
+  color: #DF6E17;
+  font-size: large; }
+
+.words_image {
+  float: left; }
+
+.words_links {
+  margin-top: 0px;
+  float: right;
+  font-size: 90px;
+  padding-left: 0px; }
 
 .portfolio {
   font-size: xx-large;
@@ -415,7 +430,7 @@ dd {
 
 h2 {
   padding-top: 120px;
-  color: #E07F39;
+  color: #DF6E17;
   font-size: xx-large; }
 
 .content p {
@@ -431,7 +446,7 @@ p {
 .menu {
   font-size: xx-large;
   font-family: "Josefin Sans", sans-serif;
-  color: #E07F39; }
+  color: #DF6E17; }
 
 .menu img {
   float: left;
@@ -456,7 +471,7 @@ p {
 
 select {
   font-family: "Josefin Sans", sans-serif;
-  color: #E07F39;
+  color: #DF6E17;
   font-size: x-large; }
 
 .name {
@@ -507,15 +522,16 @@ a:hover {
   color: #2A8FA0; }
 
 .footer {
-  background-color: #E07F39;
+  background-color: #F6FDF4;
   width: 100%;
-  height: 70px;
-  font-family: "Playfair Display", serif;
-  float: right; }
-
-footer img {
-  border-radius: 100%;
-  width: 80px;
+  height: 80px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 20px;
+  margin: 40px auto;
   text-align: center; }
+
+.footer img {
+  border-radius: 100%;
+  width: 80px; }
 
 /*# sourceMappingURL=style.css.map */
