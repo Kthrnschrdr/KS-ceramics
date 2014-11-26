@@ -362,10 +362,20 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  background-color: #F9F6FF; }
+  background-color: #F6FDF4; }
+
+.work {
+  float: left; }
+
+.work1 {
+  float: left; }
 
 .product {
   float: right; }
+
+img {
+  width: 90%;
+  height: 90%; }
 
 .desc {
   float: left; }
@@ -378,28 +388,21 @@ body {
   margin: 0 auto; }
 
 dd {
-  color: #005B7C;
-  font-family: "Open Sans Condensed", sans-serif;
+  color: #2A8FA0;
+  font-family: "Playfair Display", serif;
   text-align: center; }
 
 .content {
-  padding-top: 120px;
+  padding-top: 70px;
   margin: 0 auto;
   text-align: center;
-  width: 80%; }
-
-.work {
-  float: left;
-  margin: 20px; }
-
-.work1 {
-  float: left; 
-  margin: 20px}
+  width: 80%;
+  font-family: "Playfair Display", serif; }
 
 .portfolio {
   font-size: xx-large;
   font-family: "Josefin Sans", sans-serif;
-  color: #005B7C;
+  color: #2A8FA0;
   margin: 0 auto;
   text-align: center; }
 
@@ -415,12 +418,15 @@ h2 {
   color: #E07F39;
   font-size: xx-large; }
 
-p {
-  width: 100%;
+.content p {
+  width: 60%;
   font-size: large;
-  color: #005B7C;
+  color: #2A8FA0;
   padding: 10px;
   margin-top: 40px; }
+
+p {
+  width: 60%; }
 
 .menu {
   font-size: xx-large;
@@ -434,11 +440,10 @@ p {
 .header {
   position: absolute;
   margin-top: 20px;
-  background-color: #F9F6FF;
+  background-color: #F6FDF4;
   width: 100%;
-  opacity: .7;
   height: 70px;
-  color: #005B7C; }
+  color: #2A8FA0; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     .header {
       height: 120px; } }
@@ -447,7 +452,7 @@ p {
       height: 140px; } }
 
 .gallery-item {
-  margin-top: 120px; }
+  margin-top: 20px; }
 
 select {
   font-family: "Josefin Sans", sans-serif;
@@ -457,7 +462,7 @@ select {
 .name {
   float: left;
   font-family: "Josefin Sans", sans-serif;
-  font-size: xx-large;
+  font-size: 50px;
   margin-left: 20px;
   margin-top: 20px; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
@@ -483,7 +488,7 @@ nav {
 
 li, a {
   text-decoration: none;
-  color: #005B7C; }
+  color: #2A8FA0; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     li, a {
       text-align: center; } }
@@ -499,22 +504,18 @@ li, a {
       padding-right: 15px; } }
 
 a:hover {
-  color: #005B7C; }
+  color: #2A8FA0; }
 
 .footer {
   background-color: #E07F39;
   width: 100%;
   height: 70px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Playfair Display", serif;
   float: right; }
 
 footer img {
   border-radius: 100%;
   width: 80px;
   text-align: center; }
-
-li a {
-  text-align: center;
-}
 
 /*# sourceMappingURL=style.css.map */

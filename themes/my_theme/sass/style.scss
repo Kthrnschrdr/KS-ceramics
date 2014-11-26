@@ -1,11 +1,11 @@
 @import "normalize";
 
 $fancy_font: 'Josefin Sans', sans-serif;
-$font: 'Cabin Sketch', cursive;
-$whitish: #F9F6FF;
-$celadon: #E4F7F1;
+$font: 'Playfair Display', serif;
+$whitish: #F5F8FF;
+$celadon: #F6FDF4;
 $terracotta: #E07F39;
-$blue: #005B7C;
+$blue: #2A8FA0;
 
 body {
   margin: 0 auto;
@@ -14,7 +14,15 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  background-color: $whitish;
+  background-color: $celadon;
+}
+
+.work {
+  float: left;
+}
+
+.work1 {
+  float: left;
 }
 
 .product {
@@ -49,6 +57,7 @@ dd {
   margin: 0 auto;
   text-align: center;
   width: 80%;
+  font-family: $font;
 }
 
 .portfolio {
@@ -100,9 +109,9 @@ p {
 .header {
   position: absolute;
   margin-top: 20px;
-  background-color: $whitish;
+  background-color: $celadon;
   width: 100%;
-  opacity: .7;
+  
   height: 70px;
   color: $blue;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
@@ -126,7 +135,7 @@ select {
 .name {
   float: left;
   font-family: $fancy_font;
-  font-size: xx-large;
+  font-size: 50px;
   margin-left: 20px;
   margin-top: 20px;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
