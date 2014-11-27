@@ -1,7 +1,10 @@
 	<?php wp_footer(); ?>
   <div class="footer">
-    <br>    <a href="http://localhost:8888/ks-ceramics/contact/">  contact</a></br>
-    <img src="http://i.imgur.com/sXCGNQc.jpg"></img>
+    <ul>
+      <li><a href="contact/">contact</a></li>
+      <li><img src="http://i.imgur.com/sXCGNQc.jpg"></img></li>
+      <li><a href="https://www.facebook.com/pages/Kathryn-Schroeder-Ceramics/1513074302238647">facebook</a></li>
+    </ul>
   </div>
 </body>
 </div>

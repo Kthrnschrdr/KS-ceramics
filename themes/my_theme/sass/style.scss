@@ -2,10 +2,11 @@
 
 $fancy_font: 'Josefin Sans', sans-serif;
 $font: 'Playfair Display', serif;
-$whitish: #F5F8FF;
 $celadon: #F6FDF4;
 $terracotta: #DF6E17;
 $blue: #2A8FA0;
+$poppin_blue: #58DFE0;
+$poppin_pink: #EC7F7E;
 
 //layout//
 
@@ -37,8 +38,8 @@ $blue: #2A8FA0;
 }
 
 img {
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
 }
 
 h2 {
@@ -50,6 +51,13 @@ p {
   width: 60%;
 }
 
+li a:hover {
+  color: $poppin_blue;
+} 
+
+a:hover {
+  color: $poppin_pink; 
+}
 //header with nav bar//
 
 .header {
@@ -115,10 +123,6 @@ li, a {
     padding-right: 15px;
   }
 }
-
-a:hover {
-  color: $blue;
-} 
 
 //work page specifics//
 
