@@ -393,7 +393,7 @@ p {
 li a:hover {
   color: #58DFE0; }
 
-a:hover {
+.content a:hover {
   color: #EC7F7E; }
 
 .header {
@@ -479,6 +479,14 @@ li, a {
 .desc {
   float: left; }
 
+.page-title {
+  text-transform: uppercase;
+  font-size: large;
+  color: #2A8FA0; }
+
+.page-description p a img {
+  margin: 0 23%; }
+
 .words_image {
   float: left;
   padding-top: 40px;
@@ -509,9 +517,14 @@ select {
   width: 100%;
   height: 90px;
   font-family: "Josefin Sans", sans-serif;
+  font-size: medium;
   padding: 20px;
   margin: 40px auto;
   text-align: center; }
+
+.footer li {
+  display: inline-block;
+  padding: 3%; }
 
 .footer img {
   border-radius: 100%;
