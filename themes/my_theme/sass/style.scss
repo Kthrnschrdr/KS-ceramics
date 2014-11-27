@@ -7,9 +7,7 @@ $celadon: #F6FDF4;
 $terracotta: #DF6E17;
 $blue: #2A8FA0;
 
-body {
-  margin: 0 auto;
-}
+//layout//
 
 .container {
   width: 100%;
@@ -17,48 +15,11 @@ body {
   background-color: $celadon;
 }
 
-.work {
-  float: left;
-  margin: 10px;
-}
-
-.work1 {
-  float: left;
-  margin: 10px;
-}
-
-.product {
-  float: right;
-}
-
-img {
-  width: 90%;
-  height: 90%;
-}
-
-.desc {
-  float: left;
-}
-.portfolio-slideshow0 {
-  position: relative;
-  margin: 50px auto;
-}
-
-#psp-active {
-  margin: 0 auto;
-}
-
-dd {
-  color: $terracotta;
-  font-family: $font;
-  text-align: center;
-}
-
 .content {
-  padding-top: 70px;
-  margin: 0 auto;
+  padding-top: 140px;
+  margin: 0px 3%;
   text-align: center;
-  width: 80%;
+  width: 95%;
   font-family: $font;
 }
 
@@ -67,69 +28,35 @@ dd {
   font-size: large;
 }
 
-.words_image {
-  float: left;
-}
-
-.words_links {
-  margin-top: 0px;
-  float: right;
-  font-size: 90px;
-  padding-left: 0px;
-}
-
-.portfolio {
-  font-size: xx-large;
-  font-family: $fancy_font;
-  color: $blue;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.products li {
-  float: left;
-  margin: 10px;
-}
-
-dd {
-  padding-bottom: 20px;
-}
-
-h2 {
-  padding-top: 120px;
-  color: $terracotta;
-  font-size: xx-large;
-}
-
 .content p {
-  width: 60%;
+  width: 70%;
   font-size: large;
   color: $blue;
   padding: 10px;
   margin-top: 40px;
 }
 
+img {
+  width: 90%;
+  height: 90%;
+}
+
+h2 {
+  color: $terracotta;
+  font-size: xx-large;
+}
+
 p {
   width: 60%;
 }
 
-.menu {
-  font-size: xx-large;
-  font-family: $fancy_font;
-  color: $terracotta;
-}
-
-.menu img {
-  float: left;
-  border-radius: 100%;
-}
+//header with nav bar//
 
 .header {
   position: absolute;
   margin-top: 20px;
   background-color: $celadon;
   width: 100%;
-  
   height: 70px;
   color: $blue;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
@@ -138,16 +65,6 @@ p {
   @media only screen and (max-width: 321px) {
   height: 140px;
   }
-}
-
-.gallery-item {
-  margin-top: 20px;
-}
-
-select {
-  font-family: $fancy_font;
-  color: $terracotta;
-  font-size: x-large;
 }
 
 .name {
@@ -203,10 +120,80 @@ a:hover {
   color: $blue;
 } 
 
+//work page specifics//
+
+.work {
+  float: left;
+  margin: 1px;
+}
+
+.work1 {
+  float: left;
+  margin: 1px;
+}
+
+.portfolio-slideshow0 {
+  position: relative;
+  margin: 50px auto;
+}
+
+#psp-active {
+  margin: 0 auto;
+}
+
+//shop page specifics//
+
+.product {
+  float: right;
+}
+
+.products li {
+  float: left;
+  margin: 10px;
+}
+
+.desc {
+  float: left;
+}
+
+//words page specifics
+
+.words_image {
+  float: left;
+  padding-top: 40px;
+  padding-left: 10%;
+}
+
+.words_links {
+  margin-top: 0px;
+  float: right;
+  font-size: 90px;
+  padding-right: 10%;
+}
+
+.menu {
+  font-size: xx-large;
+  font-family: $fancy_font;
+  color: $terracotta;
+}
+
+.menu img {
+  float: left;
+  border-radius: 100%;
+}
+
+select {
+  font-family: $fancy_font;
+  color: $terracotta;
+  font-size: x-large;
+}
+
+//footer//
+
 .footer {
   background-color: $celadon;
   width: 100%;
-  height: 80px;
+  height: 90px;
   font-family: $fancy_font;
   padding: 20px;
   margin: 40px auto;
