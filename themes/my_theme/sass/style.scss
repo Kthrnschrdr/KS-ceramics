@@ -8,28 +8,25 @@ $blue: #2A8FA0;
 $poppin_blue: #58DFE0;
 $poppin_pink: #EC7F7E;
 
-//layout//
+//layout STRUCTURE
 .container {
   width: 100%;
   height: 100%;
+}
+//layout SKIN
+.container {
   background-color: $celadon;
 }
+
+
+//content STRUCTURE
 .content {
   padding-top: 170px;
   margin: 0px 3%;
-  text-align: center;
   width: 95%;
-  font-family: $font;
-}
-
-.content a {
-  color: $terracotta;
-  font-size: large;
 }
 .content p {
   width: 70%;
-  font-size: large;
-  color: $blue;
   padding: 10px;
   margin-top: 40px;
 }
@@ -37,26 +34,34 @@ img {
   width: 95%;
   height: 95%;
 }
+//content SKIN
+.content {
+  font-family: $font;
+  text-align: center;
+}
+.content a {
+  color: $terracotta;
+  font-size: large;
+}
+.content p {
+  font-size: large;
+  color: $blue;
+}
 h2 {
   color: ;
   font-size: xx-large;
-}
-p {
-  width: 60%;
 }
 li a:hover {
   color: ;
 };
 
-//header with nav bar//
 
+//header with nav bar STRUCTURE
 .header {
   position: absolute;
   margin-top: 20px;
-  background-color: $celadon;
   width: 100%;
   height: 70px;
-  color: $blue;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
   height: 120px;
   }
@@ -64,11 +69,8 @@ li a:hover {
   height: 140px;
   }
 }
-
 .name {
   float: left;
-  font-family: $fancy_font;
-  font-size: 50px;
   margin-left: 20px;
   margin-top: 20px;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
@@ -82,23 +84,14 @@ li a:hover {
     font-size: x-large;
   }
 }
-
 nav {
   float: right;
-  text-transform: lowercase;
-  font-family: $fancy_font;
-  font-size: large;
   margin-right: 20px;
 }
-
-
 .clearfix {
   clear: both;
 }
-
 li, a {
-  text-decoration: none;
-  color: $blue;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     text-align: center;
   }
@@ -113,109 +106,123 @@ li, a {
     padding-right: 15px;
   }
 }
+//header with nav bar SKIN
+.header {
+  background-color: $celadon;
+  color: $blue;
+}
+.name {
+  font-family: $fancy_font;
+  font-size: 50px;
+}
+nav {
+  text-transform: lowercase;
+  font-family: $fancy_font;
+  font-size: large;
+}
+li, a {
+  text-decoration: none;
+  color: $blue;
+}
 
-//work page specifics//
 
+//work page STRUCTURE
 .work {
   float: left;
   margin: 1px;
 }
-
 .work1 {
   float: left;
   margin: 1px;
 }
-
 .portfolio-slideshow0 {
   position: relative;
   margin: 50px auto;
 }
-
 #psp-active {
   margin: 0 auto;
 }
 
-//shop page specifics//
-
+//shop page STRUCTURE
 .product {
   float: right;
 }
-
 .products li {
   float: left;
   margin: 10px;
 }
-
 .desc {
   float: left;
 }
-
+.page-description p a img {
+  margin: 0 23%;
+}
+//shop page SKIN
 .page-title {
   text-transform: uppercase;
   font-size: large;
   color: $blue;
 }
 
-.page-description p a img {
-  margin: 0 23%;
-}
 
-//words page specifics
-
+//words page STRUCTURE
 .words_image {
   float: left;
   padding-top: 40px;
   padding-left: 10%;
 }
-
 .words_links {
   margin-top: 0px;
   float: right;
-  font-size: 90px;
   padding-right: 10%;
 }
-
+.menu img {
+  float: left;
+  border-radius: 100%;
+}
+//words page SKIN
 .menu {
   font-size: xx-large;
   font-family: $fancy_font;
   color: $terracotta;
 }
-
-.menu img {
-  float: left;
-  border-radius: 100%;
+.words_links {
+  font-size: 90px;
 }
-
 select {
   font-family: $fancy_font;
   color: $terracotta;
   font-size: x-large;
 }
 
-//footer
+
+//footer STRUCTURE
 .footer .copyright {
-  font-size: 8px;
   margin: 0 auto;
   margin-bottom: -20px;
 }
 
 .footer {
-  background-color: $celadon;
   width: 100%;
   height: 120px;
-  font-family: $fancy_font;
-  font-size: medium;
   padding: 20px;
   margin: 40px auto;
-  text-align: center;
 }
-
 .footer li {
   display: inline-block;
   padding: 3%;
 }
-
 .footer img {
   border-radius: 100%;
   width: 70px;
+}
+//footer SKIN
+.footer .copyright {
+  font-size: 8px;
+}
+.footer {
+  background-color: $celadon;
+  font-family: $fancy_font;
+  font-size: medium;
+  text-align: center;
 }
